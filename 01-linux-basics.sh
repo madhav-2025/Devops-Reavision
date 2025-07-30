@@ -50,3 +50,17 @@ uptime                      # System running time
 ### ✅ End of File
 ### ------------------------------
 
+✅ DevOps में सबसे ज़्यादा जरूरी:
+
+/etc → configs like nginx, ssh, hostname
+
+/var/log → logs check करने के लिए (e.g. journalctl, tail)
+
+/home/your-username → आपकी workspace या projects
+
+/usr/bin, /bin, /sbin → commands run करने के लिए
+
+✅ इसको देखने (read) का तरीका:
+cat /etc/hosts
+sudo nano /etc/hosts
+
